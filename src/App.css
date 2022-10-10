@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+#caixaDeTextoIn{
+  padding-left: 10px;
+  padding-bottom: 50px;
+  width: 250px;
+  height: 50px;
+  
+}
+#caixaDeTextoOut{
+  padding-left: 10px;
+  padding-bottom: 50px;
+  width: 250px;
+  height: 50px;
+  border: solid;
+  font-size: 16pt;
+
+}
+#seta{
+  font-size: 22pt;
+}
+#btnTra{
+  margin-top: 50px;
+  width: 100px;
+  font-size: 16pt;
+  background-color: rgba(0, 128, 0, 0.466);
+}
