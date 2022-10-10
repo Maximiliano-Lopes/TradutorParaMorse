@@ -21,7 +21,7 @@ render(){
         <div>
            <form>
             <div>
-            <input type="text" id="caixaDeTextoIn" placeholder="Insira palavra por palavra"/>
+            <input type="text" id="caixaDeTextoIn" placeholder="Insira palavra por palavra, sem espaços!"/>
             <a id="seta"> ⇉ </a>  
             <input type="text" id="caixaDeTextoOut" value={this.state.codigo} placeholder="Sua tradução virá aqui" disabled/>
             <br/>
