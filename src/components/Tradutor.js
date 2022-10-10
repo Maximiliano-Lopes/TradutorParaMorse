@@ -84,6 +84,9 @@ function Tradutor(callback){
             case "z":
                 listagem.push("--..")
                 break
+            case " ":
+                listagem.push(" ")
+                break    
             default:
                 listagem.push("Você inseriu errado")
         }
