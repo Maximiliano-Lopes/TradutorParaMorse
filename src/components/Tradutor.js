@@ -67,7 +67,7 @@ function Tradutor(callback){
                 listagem.push("━...")
                 break
             case "u":
-                listagem.push("-")
+                listagem.push("..-")
                 break
             case "v":
                 listagem.push("...-")
